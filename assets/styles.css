@@ -1,0 +1,228 @@
+body{
+	height: 100vh !important;
+	width: 100% !important;
+}
+.container{
+	height: 100vh !important;
+	width: 100% !important;
+
+}
+#background{
+	width: 120%;
+	height: 91vh;
+  	z-index: 0;
+  	margin-left: -100px;
+  	opacity: 1;
+  	position: absolute;
+  	-webkit-filter: blur(2.5px);
+}
+
+li,a{
+	margin-right: 20px;
+	color: white;
+	text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+}
+a {
+  color:inherit !important;
+  text-decoration: none !important;
+ }
+ul{
+	margin-right: 25px;
+}
+.name{
+	margin-bottom: -0px;
+	margin-left: 40px;
+	color:white;
+	font-size: 20px;
+	text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+
+}
+h1{
+	font-size: 60px;
+	margin-top: 30px;
+}
+#title{
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+nav{
+	height: 50px;
+	background-color: black;
+	/*background-color: rgba(255, 0, 0, 0.4);*/
+	/*background-color: rgba(0, 0, 0, 0.9);*/
+	width: 100vw !important;
+	opacity: 1;
+
+	margin-left: -85px;
+	/*margin-bottom: -50px;*/
+	position: relative;
+}
+#overlay{
+	color: white;
+	position: relative;
+	z-index: 1;
+	border-top: dotted;
+	border-bottom: dotted;
+	margin-top: 200px;
+	text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+
+}
+button{
+	border:1px solid white;
+	background-color: transparent;
+	color: white;
+	margin-top:10px;
+	margin-right: 2px;
+	font-size: 20px;
+	padding: 10px;
+	width: 90px;
+	text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+}
+#logo{
+	height: 150px;
+	width: 150px;
+	margin-bottom: -220px;
+}
+
+
+.typewriter {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: transparent; }
+}
+
+#words{
+	font-size: 20px;
+/*	margin-top: -80px;
+*/	margin-bottom: 30px;
+	margin-right: 20px; 
+	letter-spacing: 10px;
+}
+
+
+
+
+
+
+
+
+.words{
+    display: inline;
+    /*text-indent: 10px;*/
+    margin-bottom: 10px !important;
+}
+.words-1 span{
+    position: absolute;
+    opacity: 0;
+    overflow: hidden;
+    color: white;
+    -webkit-animation: rotateWord 18s linear infinite 0s;
+    -moz-animation: rotateWord 18s linear infinite 0s;
+    -o-animation: rotateWord 18s linear infinite 0s;
+    -ms-animation: rotateWord 18s linear infinite 0s;
+    animation: rotateWord 18s linear infinite 0s;
+}
+.words-1 span:nth-child(2) { 
+    -webkit-animation-delay: 3s; 
+    -moz-animation-delay: 3s; 
+    -o-animation-delay: 3s; 
+    -ms-animation-delay: 3s; 
+    animation-delay: 3s; 
+    color: white;
+}
+.words-1 span:nth-child(3) { 
+    -webkit-animation-delay: 6s; 
+    -moz-animation-delay: 6s; 
+    -o-animation-delay: 6s; 
+    -ms-animation-delay: 6s; 
+    animation-delay: 6s; 
+    color: white;    
+}
+.words-1 span:nth-child(4) { 
+    -webkit-animation-delay: 9s;
+    -moz-animation-delay: 9s; 
+    -o-animation-delay: 9s; 
+    -ms-animation-delay: 9s; 
+    animation-delay: 9s; 
+    color: white;
+}
+.words-1 span:nth-child(5) { 
+    -webkit-animation-delay: 12s; 
+    -moz-animation-delay: 12s; 
+    -o-animation-delay: 12s; 
+    -ms-animation-delay: 12s; 
+    animation-delay: 12s; 
+    color: white;
+}
+.words-1 span:nth-child(6) { 
+    -webkit-animation-delay: 15s;
+    -moz-animation-delay: 15s; 
+    -o-animation-delay: 15s; 
+    -ms-animation-delay: 15s; 
+    animation-delay: 15s; 
+    color: white;
+}
+@-webkit-keyframes rotateWord {
+    0% { opacity: 0; }
+    2% { opacity: 0; -webkit-transform: translateY(-30px); }
+    5% { opacity: 1; -webkit-transform: translateY(0px);}
+    17% { opacity: 1; -webkit-transform: translateY(0px); }
+    20% { opacity: 0; -webkit-transform: translateY(30px); }
+    80% { opacity: 0; }
+    100% { opacity: 0; }
+}
+@-moz-keyframes rotateWord {
+    0% { opacity: 0; }
+    2% { opacity: 0; -moz-transform: translateY(-30px); }
+    5% { opacity: 1; -moz-transform: translateY(0px);}
+    17% { opacity: 1; -moz-transform: translateY(0px); }
+    20% { opacity: 0; -moz-transform: translateY(30px); }
+    80% { opacity: 0; }
+    100% { opacity: 0; }
+}
+@-o-keyframes rotateWord {
+    0% { opacity: 0; }
+    2% { opacity: 0; -o-transform: translateY(-30px); }
+    5% { opacity: 1; -o-transform: translateY(0px);}
+    17% { opacity: 1; -o-transform: translateY(0px); }
+    20% { opacity: 0; -o-transform: translateY(30px); }
+    80% { opacity: 0; }
+    100% { opacity: 0; }
+}
+@-ms-keyframes rotateWord {
+    0% { opacity: 0; }
+    2% { opacity: 0; -ms-transform: translateY(-30px); }
+    5% { opacity: 1; -ms-transform: translateY(0px);}
+    17% { opacity: 1; -ms-transform: translateY(0px); }
+    20% { opacity: 0; -ms-transform: translateY(30px); }
+    80% { opacity: 0; }
+    100% { opacity: 0; }
+}
+@keyframes rotateWord {
+    0% { opacity: 0; }
+    2% { opacity: 0; transform: translateY(-30px); }
+    5% { opacity: 1; transform: translateY(0px);}
+    17% { opacity: 1; transform: translateY(0px); }
+    20% { opacity: 0; transform: translateY(30px); }
+    80% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
