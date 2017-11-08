@@ -4,6 +4,9 @@ body{
 	background-color: white;
 
 }
+#body{
+	background-color: black;
+}
 .container{
 	height: 100vh !important;
 	width: 100% !important;
@@ -54,15 +57,33 @@ ul{
 	text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
 
 }
+#carrot{
+	margin-bottom: -200px;
+}
+#carrot,.head{
+	display:none;
+}
 h1{
 	font-size: 60px;
 	margin-top: 30px;
 	font-weight: thin;
 }
+h2{
+	color: white;
+	text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+	font-size: 50px;
+	margin-top: 50px !important;
+	margin-bottom: -50px !important;
+	font-family: 'Homemade Apple', cursive;
+	height: 100px;
+}
 h3{
 	font-family: 'Monoton', cursive;
 	font-size: 45px;
 }
+/*.digital{
+	height: 200px;
+}*/
 #title{
 	font-size: 30px;
 	margin-bottom: 10px;
@@ -129,6 +150,27 @@ button{
 	width: 250px;
 	margin-bottom: 25px;
 }
+.port-logo-1{
+	height: 250px;
+	width: 250px;
+	margin-top: 30px;
+	float: left;
+	margin-left: 60px !important;
+	margin-bottom: 30px;
+}
+/*.port-logo-2{
+	width: 300px;
+	height:400px;
+	margin-top: 20px;
+	margin-left: -40px;
+}*/
+.port-logo-3{
+	width: 400px;
+	height:300px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
 .about-img{
 	height: 250px;
 	width: 250px;
@@ -183,6 +225,7 @@ h5{
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
 }
+
 
 /* The typing effect */
 @keyframes typing {
@@ -366,6 +409,12 @@ section{
 	margin-left: -100px;
 	margin-bottom: 100px;
 }
+#main{
+	height: 100%;
+	width: 120%;
+	margin-left: -100px;
+
+}
 .caption{
 	margin-top: -70px;
 	width: 280px;
@@ -385,10 +434,59 @@ section{
 	font-size: 300px;
 	margin-bottom: -80px;
 }
+.rotate1{
+	transform:          rotate(30deg);
+-ms-transform:      rotate(30deg);
+-moz-transform:     rotate(30deg);
+-webkit-transform:  rotate(30deg);
+-o-transform:       rotate(30deg);
 
 
+}
+.rotate2{
+transform:          rotate(-10deg);
+-ms-transform:      rotate(-10deg);
+-moz-transform:     rotate(-10deg);
+-webkit-transform:  rotate(-10deg);
+-o-transform:       rotate(-10deg);
 
 
+}
+/*.polaroid{
+	height: 400px;
+	width: 400px;
+	background-color: white;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 70px;
+	margin:20px;
+	margin-bottom: 150px;
+	transform:          rotate(30deg);
+-ms-transform:      rotate(30deg);
+-moz-transform:     rotate(30deg);
+-webkit-transform:  rotate(30deg);
+-o-transform:       rotate(30deg);
+}
+.polaroid1{
+	height: 300px;
+	width: 300px;
+	background-color: white;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 70px;
+	margin:20px;
+	transform:          rotate(10deg);
+-ms-transform:      rotate(10deg);
+-moz-transform:     rotate(10deg);
+-webkit-transform:  rotate(10deg);
+-o-transform:       rotate(10deg);
+}*/
+.polaroid-con{
+	margin-top: 100px;
+	width: 100% !important;
+}
 
 
 .polaroid-images a
@@ -397,7 +495,7 @@ section{
 	display: inline;
 	float: left;
 	margin: 0 15px 30px;
-	padding: 10px 10px 35px;
+	padding: 10px 10px 25px;
 	text-align: center;
 	text-decoration: none;
 	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
@@ -410,7 +508,6 @@ section{
         position:relative;
 }
 
-
 .polaroid-images a:after {
 	color: #333;
 	font-size: 20px;
@@ -419,14 +516,37 @@ section{
 	top:15px;
 }
 
-
-
-
 .polaroid-images img { 
 	display: block; 
-	width: 300px;
-	height: 300px; 
+	width: inherit; 
 }
+.p-img{
+	height: 250px;
+	width: 150px;
+}
+.p-img1{
+	height: 300px;
+	width:300px;
+}
+.polaroid-images{
+	margin:150px 150px 150px 150px;
+}
+.move{
+	margin-right: 150px !important;	
+	margin-left: -50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

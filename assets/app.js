@@ -23,7 +23,11 @@ $(document).ready(function() {
         } // End if
     });
     
-
+ $(".head").fadeIn( 2000, function() {
+    $("#carrot").fadeIn(1000,function(){
+        console.log("loaded");
+    })
+  });
 
 //     $(".slideshow > div:gt(0)").hide();
 
@@ -35,5 +39,35 @@ $(document).ready(function() {
 //     .end()
 //     .appendTo('.slideshow');
 // }, 3000);
+
+// <div class="row">
+//             <div class="col-md-6">
+//                 <center><img class="polaroid" src="./assets/images/az.jpg"></center>
+//             </div>
+//             <div class="col-md-6">
+//                 <center><img class="polaroid1" style="float:left" src="./assets/images/az.jpg"></center>
+//             </div>
+//         </div>
+//         <div class="row">
+//             <div class="col-md-2"></div>
+//             <div class="col-md-3">
+//                 <center><img class="polaroid" src="./assets/images/az.jpg"></center>
+//             </div>
+//             <div class="col-md-4"></div>
+//             <div class="col-md-3">
+//                 <img class="polaroid1" style="margin-left:-300px !important" src="./assets/images/az.jpg">
+//             </div>
+//         </div>
+//         <div class="row">
+//             <div class="col-md-1"></div>
+//             <div class="col-md-3">
+//                 <center><img class="polaroid1" src="./assets/images/az.jpg">
+//                 </center>
+//             </div>
+//             <div class="col-md-2"></div>
+//             <div class="col-md-4">
+//                 <center><img class="polaroid" src="./assets/images/az.jpg"></center>
+//             </div>
+//         </div>
 
 });
