@@ -750,6 +750,9 @@ margin-right: 5px;
 	margin-left: -30px
 }
 
+
+}
+
 @media only screen 
 and (min-device-width : 414px) 
 and (max-device-width : 736px) { 
@@ -772,13 +775,75 @@ and (max-device-width : 736px) {
 
 @media only screen 
 and (min-device-width : 768px) 
-and (max-device-width : 1024px)  { /* IPAD LANDSCAPE AND PORTRAIT */}
+and (max-device-width : 1024px)  {
 
+h1{
+	font-size: 40px;
+}
+#words{
+	margin-bottom: 20px !important;
+}
+#na{
+	font-size: 17px;
+}
+#title{
+	font-size: 25px;
+}
+nav{
+	margin-left:-50px;
+}
+#background{
+	margin-left: -50px;
+	height: 100vh;
+}
+.w{
+	font-size: 150px;
+}
+.small-cap{
+	margin-top: 50px;
+}
+#down{
+	margin-left: -40px;
+}
+#who{
+	margin-top: 500px;
+}
+.slideshow{
+	/*margin-left: 0px;*/
+	height: 200px;
+	width: 200px;
+	margin-left: 120px;
+}
+.slide{
+	/*margin-right: 10px;*/
+	height: 200px;
+	width: 200px;
+	margin-right: 80px;
+	/*margin-left: 80px;*/
+}
+.caption p{
+	margin-right: 70px;
+}
+#why{
+	margin-top: -400px;
+}
+#what{
+	margin-top: -300px;
+}
+#con-background{
+	margin-left: 80px;
+	height: 100vh;
+}
+.icon{
+	margin-right: 50px;
+	margin-left: -20px;
 
-
-
-
-
-
+}
+.ig{
+	margin-right: -290px;
+}
+.mail{
+	margin-left: -110px;
+}
 
 }
