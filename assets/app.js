@@ -23,11 +23,14 @@ $(document).ready(function() {
         } // End if
     });
     
+    
  $(".head").fadeIn( 2000, function() {
     $("#carrot").fadeIn(1000,function(){
         console.log("loaded");
     })
   });
+
+
 
 //     $(".slideshow > div:gt(0)").hide();
 

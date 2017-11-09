@@ -59,6 +59,9 @@ ul{
 #carrot{
 	margin-bottom: -200px;
 }
+#small-carrot{
+	display: none;
+}
 #carrot,.head{
 	display:none;
 }
@@ -87,6 +90,7 @@ h3{
 	font-size: 30px;
 	margin-bottom: 10px;
 }
+
 
 nav{
 	height: 50px;
@@ -386,7 +390,9 @@ h5{
 	margin-left: -5px;
 }
 
-
+.third{
+	display: none;
+}
 
 
 
@@ -561,6 +567,9 @@ h6{
 	font-size:15px;
 	font-family: 'Raleway', sans-serif;
 }
+.small{
+	display: none;
+}
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 
@@ -670,5 +679,74 @@ margin-right: 5px;
 .port-logo-3{
 	display: none;
 }
+.port-logo-1{
+	margin-left:20px !important;
+	/*margin-top: 20px;*/
+}
+.p-img1{
+	height:200px;
 
+	/*width: 150px;*/
+}
+/*.pic{
+	margin: 300px;
+}*/
+
+.polaroid-images a{
+	    margin: 0 -130px 30px;
+}
+.move{
+	margin: 0!important;
+}
+.polaroid-con{
+	display:none;
+}
+.small{
+	display: block;
+}
+.head{
+	font-size: 35px;
+	margin-left: 10px;
+	margin-top: 30px !important;
+	
+}
+.port-logo-1{
+	margin-left: 70px !important;
+}
+#carrot{
+	margin-right: -30px;
+	margin-top: 90px;
+	
+}
+.third{
+	display: block;
+}
+
+#pic1{
+	margin-left: -50px;
+}
+#pic2{
+	margin-left: -50px;
+}
+#pic4{
+	margin-left: -60px;
+}
+#pic3{
+	margin-left: -40px !important;
+}
+#pic5{
+	margin-left: -60px;
+}
+#pic6{
+	margin-left: -50px;
+}
+#pic7{
+	margin-left:-20px !important;
+}
+#pic8{
+	margin-left: -60px;
+}
+#small{
+	margin-left: -30px
+}
 }
