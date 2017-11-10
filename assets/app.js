@@ -1,6 +1,32 @@
 $(document).ready(function() {
     // Add smooth scrolling to all links
 
+    $("#pc").on("click",function(){
+        $('#modal1').modal("show")
+    });
+   $("#bc").on("click",function(){
+        $('#modal2').modal("show")
+    });
+    $("#vs").on("click",function(){
+        $('#modal3').modal("show")
+    });
+     $("#ek").on("click",function(){
+        $('#modal4').modal("show")
+    });
+      $("#cc").on("click",function(){
+        $('#modal5').modal("show")
+    });
+       $("#vol").on("click",function(){
+        $('#modal6').modal("show")
+    });
+        $("#ff").on("click",function(){
+        $('#modal7').modal("show")
+    });
+         $("#ba").on("click",function(){
+        $('#modal8').modal("show")
+    });
+      
+
     $(".smooth").on('click', function(event) {
 
         // Make sure this.hash has a value before overriding default behavior

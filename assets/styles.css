@@ -48,6 +48,38 @@ a {
 ul{
 	margin-right: 25px;
 }
+.modal-content {
+   background-color: black !important;
+}
+.modal{
+	border:solid white 2px;
+}
+.modal-title{
+	font-size: 30px;
+	color: white;
+	text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+	font-weight: bolder;
+	font-family: 'Raleway', sans-serif;
+}
+.modal-body{
+	color: white;
+	text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+	font-family: 'Raleway', sans-serif;
+}
+.button{
+	border:1px solid white;
+	background-color: transparent;
+	color: white;
+	margin-top:10px;
+	margin-right: 2px;
+	font-size: 15px;
+	padding: 10px;
+	width: 120px;
+	text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+	font-family: 'Raleway', sans-serif;
+	margin-right: 160px !important;
+}
+
 .name{
 	margin-bottom: -0px;
 	margin-left: 40px;
@@ -153,6 +185,7 @@ button{
 	text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
 	font-family: 'Raleway', sans-serif;
 }
+
 #logo{
 	height: 150px;
 	width: 150px;
