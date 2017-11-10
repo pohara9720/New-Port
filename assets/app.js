@@ -25,7 +25,10 @@ $(document).ready(function() {
          $("#ba").on("click",function(){
         $('#modal8').modal("show")
     });
-      
+          $("#misc").on("click",function(){
+        $('#modal9').modal("show")
+    });
+
 
     $(".smooth").on('click', function(event) {
 
