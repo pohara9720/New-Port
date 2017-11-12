@@ -124,7 +124,7 @@ h2{
 	font-size: 50px;
 	margin-top: 50px !important;
 	margin-bottom: -50px !important;
-	font-family: 'Homemade Apple', cursive;
+	font-family: 'Raleway', sans-serif;
 	height: 100px;
 }
 h3{
@@ -842,6 +842,7 @@ margin-right: 5px;
 }
 
 
+
 }
 
 /*IPHONE PLUS*/
@@ -863,6 +864,9 @@ and (max-device-width : 736px) {
 .port-logo-1{
 	margin-left: 85px !important;
 }
+#me{
+	height: 350px;
+}
 }
 
 
@@ -878,6 +882,27 @@ h1{
 #words{
 	margin-bottom: 20px !important;
 }
+.port-logo-1{
+	display: none;
+}
+.port-logo-3{
+	margin-left:20px; 
+	margin-top: -40px;
+}
+#carrot{
+	display: block;
+	margin-top: 200px;
+	margin-left: 50px;
+}
+.polaroid-images{
+	height: 400px;
+	width: 900px;
+	margin-left: -10px;
+}
+#ts{
+	margin-right: -60px;
+}
+
 #na{
 	font-size: 17px;
 }
@@ -942,3 +967,31 @@ nav{
 }
 
 }
+
+/*IPAD PLUS*/
+@media only screen 
+and (min-device-width : 1024px) 
+and (max-device-width : 1366px)  {
+
+.port-logo-1{
+	display: block;
+}
+.port-logo-3{
+	margin-left: -70px;
+	margin-top: 50px;
+}
+.polaroid-images{
+	margin-left: 100px;
+}
+#who{
+	margin-top: 850px;
+	margin-bottom: -600px;
+}
+#why{
+	margin-bottom: -700px !important;
+}
+#what{
+	margin-bottom: -600px;
+}
+}
+
