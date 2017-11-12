@@ -30,6 +30,113 @@ $(document).ready(function() {
     });
 
 
+
+
+           $("#ws").on("click",function(){
+        $('#modal10').modal("show")
+    });
+   $("#bam").on("click",function(){
+        $('#modal11').modal("show")
+    });
+    $("#li").on("click",function(){
+        $('#modal13').modal("show")
+    });
+     $("#react").on("click",function(){
+        $('#modal20').modal("show")
+    });
+      $("#gi").on("click",function(){
+        $('#modal14').modal("show")
+    });
+       $("#ts").on("click",function(){
+        $('#modal15').modal("show")
+    });
+        $("#rpg").on("click",function(){
+        $('#modal16').modal("show")
+    });
+         $("#tri").on("click",function(){
+        $('#modal17').modal("show")
+    });
+          $("#hang").on("click",function(){
+        $('#modal18').modal("show")
+    });
+     $("#flash").on("click",function(){
+        $('#modal19').modal("show")
+    }); 
+
+
+
+
+
+
+
+
+
+
+    // $("#pic1").on("click",function(){
+    //     $('#modal1').modal("show")
+    // });
+    // $("#pic2").on("click",function(){
+    //     $('#modal2').modal("show")
+    // });
+    // $("#pic3").on("click",function(){
+    //     $('#modal3').modal("show")
+    // });
+    //  $("#pic4").on("click",function(){
+    //     $('#modal4').modal("show")
+    // });
+    //   $("#pic5").on("click",function(){
+    //     $('#modal5').modal("show")
+    // });
+    //    $("#pic6").on("click",function(){
+    //     $('#modal6').modal("show")
+    // });
+    //     $("#pic7").on("click",function(){
+    //     $('#modal7').modal("show")
+    // });
+    //      $("#pic8").on("click",function(){
+    //     $('#modal8').modal("show")
+    // });
+    //       $("#small-misc").on("click",function(){
+    //     $('#modal9').modal("show")
+    // });
+
+
+
+
+
+
+
+        $("#pic10").on("click",function(){
+        $('#modal10').modal("show")
+    });
+    $("#pic11").on("click",function(){
+        $('#modal11').modal("show")
+    });
+    $("#pic18").on("click",function(){
+        $('#modal20').modal("show")
+    });
+     $("#pic12").on("click",function(){
+        $('#modal13').modal("show")
+    });
+      $("#pic13").on("click",function(){
+        $('#modal14').modal("show")
+    });
+       $("#pic20").on("click",function(){
+        $('#modal19').modal("show")
+    });
+        $("#pic14").on("click",function(){
+        $('#modal15').modal("show")
+    });
+         $("#pic15").on("click",function(){
+        $('#modal16').modal("show")
+    });
+          $("#pic16").on("click",function(){
+        $('#modal17').modal("show")
+    });
+          $("#pic17").on("click",function(){
+        $('#modal18').modal("show")
+    });
+
     $(".smooth").on('click', function(event) {
 
         // Make sure this.hash has a value before overriding default behavior

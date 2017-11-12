@@ -208,6 +208,10 @@ button{
 	margin-bottom: -220px;
 	margin-top: -40px;
 }
+#ts,#gi{
+	margin-left: -30px;
+	margin-right: 110px;
+}
 
 .about-logo{
 	height: 250px;
@@ -619,7 +623,11 @@ h6{
 .small{
 	display: none;
 }
+.blue{
+	color: red !important;
+}
 
+/*Normal Iphone*/
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 
 body,.container{
@@ -669,8 +677,12 @@ li,a{
 
 
 
-
-
+.adjust{
+	margin-right: 0px !important;
+}
+.misc-little{
+	margin-left: 50px;
+}
 
 
 .w{
@@ -795,12 +807,44 @@ margin-right: 5px;
 #pic8{
 	margin-left: -60px;
 }
+#pic10{
+	margin-left: -50px;
+}
+#pic11{
+	margin-left: -50px;
+}
+#pic12{
+	margin-left: -70px !important;
+}
+#pic13{
+	margin-left: -40px !important;
+}
+#pic14{
+	margin-left: -60px;
+}
+#pic15{
+	margin-left: -50px;
+}
+#pic16{
+	margin-left:-20px !important;
+}
+#pic17{
+	margin-left: -60px;
+}
+#pic18{
+	margin-left: -60px;
+}
+#pic20{
+	margin-left: -55px;
+}
 #small{
 	margin-left: -30px
 }
 
 
 }
+
+/*IPHONE PLUS*/
 
 @media only screen 
 and (min-device-width : 414px) 
@@ -821,6 +865,8 @@ and (max-device-width : 736px) {
 }
 }
 
+
+/*IPAD*/
 
 @media only screen 
 and (min-device-width : 768px) 
