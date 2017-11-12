@@ -27,6 +27,7 @@ $(document).ready(function() {
     });
           $("#misc").on("click",function(){
         $('#modal9').modal("show")
+        // setTimeout(function() {$('#modal9').modal('hide');}, 10000);
     });
 
 
@@ -72,33 +73,41 @@ $(document).ready(function() {
 
 
 
-    // $("#pic1").on("click",function(){
-    //     $('#modal1').modal("show")
-    // });
-    // $("#pic2").on("click",function(){
-    //     $('#modal2').modal("show")
-    // });
-    // $("#pic3").on("click",function(){
-    //     $('#modal3').modal("show")
-    // });
-    //  $("#pic4").on("click",function(){
-    //     $('#modal4').modal("show")
-    // });
-    //   $("#pic5").on("click",function(){
-    //     $('#modal5').modal("show")
-    // });
-    //    $("#pic6").on("click",function(){
-    //     $('#modal6').modal("show")
-    // });
-    //     $("#pic7").on("click",function(){
-    //     $('#modal7').modal("show")
-    // });
-    //      $("#pic8").on("click",function(){
-    //     $('#modal8').modal("show")
-    // });
-    //       $("#small-misc").on("click",function(){
-    //     $('#modal9').modal("show")
-    // });
+    $("#pic1").on("click",function(){
+        $('#modal1').modal("show")
+    });
+    $("#pic2").on("click",function(){
+        $('#modal2').modal("show")
+    });
+    $("#pic3").on("click",function(){
+        $('#modal3').modal("show")
+    });
+     $("#pic4").on("click",function(){
+        $('#modal4').modal("show")
+    });
+      $("#pic5").on("click",function(){
+        $('#modal5').modal("show")
+    });
+       $("#pic6").on("click",function(){
+        $('#modal6').modal("show")
+    });
+        $("#pic7").on("click",function(){
+        $('#modal7').modal("show")
+    });
+         $("#pic8").on("click",function(){
+        $('#modal8').modal("show")
+    });
+          $("#small-misc").on("click",function(){
+        $('#modal9').modal("show")
+        // setTimeout(function() {$('#modal9').modal('hide');}, 10000);
+    });
+
+        $("#modal-close").on("click",function(){
+            $('#modal9').modal('hide')
+        })
+        $("#small-modal-close").on("click",function(){
+            $('#modal9').modal('hide')
+        })
 
 
 
